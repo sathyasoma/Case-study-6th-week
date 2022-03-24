@@ -1,20 +1,21 @@
 # Case-study-6th-week
 
+
 casestudy:
 =========
 SpringBootDataJpaRest with postman:
 ==================================
 
-StudentMangaementApplication:
+MobileMangaementApplication:
 ---------------------------------
 
 1. create package struture 
   
-      1.1 com.student
-	  1.2 com.student.entity 
-	  1.3 com.student.service 
-	  1.4 com.student.dao 
-	  1.5 com.student.controller 
+      1.1 com.mobile
+	  1.2 com.mobile.entity 
+	  1.3 com.mobile.service 
+	  1.4 com.mobile.dao 
+	  1.5 com.mobile.controller 
 
 
 
@@ -23,40 +24,40 @@ StudentMangaementApplication:
 
 1.2 com.std.entity
 
-    student details
-	    studentId
-		studentName
-		studentClass
-		studentmarks
-		studnetSchoolName
-		studentAddress
+    mobile details
+	    mobileId
+		mobileName
+		mobileTYPE
+		mobilePrice
+		mobileWarenty
+		mobileIMEINumber
 
 
 1.3 com.std.service 
 
-	Student addStudent(Student Student);
+	Mobile addmobile(Mobile mobile);
 
-	Student updateStudent(Student Student);
+	Mobile updatemobile(Mobile mobile);
 
-	String deleteStudent(int empId);
+	String deletemobile(int empId);
 
-	Student getStudent(int empId);
+	mobile getmobile(int empId);
 
-	List<Student> getAllStudents();
+	List<Mobile> getAllmobiles();
 
  
 1.4 com.std.dao 
 	
 
-	Student addStudent(Student Student);
+	Mobile addmobile(Mobile mobile);
 
-	Student updateStudent(Student Student);
+	Mobile updatemobile(Mobile mobile);
 
-	String deleteStudent(int empId);
+	String deletemobile(int empId);
 
-	Student getStudent(int empId);
+	mobile getmobile(int empId);
 
-	List<Student> getAllStudents();	
+	List<Mobile> getAllmobiles();	
 										 
 1.5 com.std.controller
 
@@ -65,4 +66,4 @@ StudentMangaementApplication:
 	 
 	 
 	 
-2. Use POSTMAN TO ENTER THE STUDENT DETAILS  
+2. Use POSTMAN TO ENTER THE mobile DETAILS  
